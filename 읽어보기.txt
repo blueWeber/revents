@@ -1,0 +1,17 @@
+
+## 개발 일지 및 기타 사항
+
+
+# semantic-ui-css 컴파일 에러
+
+Install it
+yarn add --dev @semantic-ui-react/css-patch
+# or
+npm install --dev @semantic-ui-react/css-patch
+
+Add it as a postinstall script to your package.json
+{
+ "scripts": {
+   "postinstall": "semantic-ui-css-patch"
+ }
+}
